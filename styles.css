@@ -1,0 +1,166 @@
+html, body{
+    margin:0;
+    height:100%;
+    width:100%;
+  }
+  body{
+    display:flex;
+  }
+  header{
+    margin:18px 152px
+  }
+  .athlete-mobile{
+    height:200px;
+    background:url("https://assets.codepen.io/6060109/mobile-shoes.jpg") no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+  .text-content{
+    text-align:center;
+  }
+  #we-re{
+    color: #2F80ED;
+    font-family: AdiHaus;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 5px;
+    margin-top:30px;
+    margin-bottom:10px;
+  }
+  #coming-soon{
+    color:#423A3A;
+    font-family: AdiHaus;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 5px;
+    margin-top:0px;
+    margin-bottom:15px;
+  }
+  p{
+    font-family: AdiHaus;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color:#333333;
+    margin-top:0px;
+    margin-bottom:30px;
+  }
+  form{
+    display:flex;
+    height: 48px;
+    margin:0px 32px 79px 32px;
+  }
+  input[type="email"]{
+    padding: 0 20px;
+    width:247px;
+    font-family: AdiHaus;
+    font-size: 14px;
+    color: #828282;
+  }
+  input[value="Go"]{
+    width: 64px;
+    height: 48px;
+    background-color:#333333;
+    color:#FFFFFF;
+    font-family: AdiHaus;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .all-container{
+    margin:0 auto;
+    max-width: 376px;
+  }
+  input[value="›"]{
+    display:none;
+  }
+  
+  @media only screen and (min-width:  1400px){
+    header{
+      margin:49px 0px 137px 0px;
+    }
+    .athlete-mobile{
+      display:none;
+    }
+    .all-container{
+      width:50%;
+      margin-left:165px;
+      height:100%;
+    }
+    .text-content{
+      text-align:left;
+    }
+    #coming-soon{
+      font-family: AdiHaus;
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 71px;
+      letter-spacing: 5px;
+      margin-bottom:18px;
+    }
+    p{
+      font-family: AdiHaus;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0px;
+      margin-bottom:40px;
+    }
+    .form{
+      margin:0px 0px 162px 0px
+    }
+    input[type="email"]{
+      padding: 0 20px;
+      width:247px;
+      font-family: AdiHaus;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0px;
+    }
+    input[type="submit"]{
+      width: 64px;
+      height: 48px;
+      background-color:#333333;
+      color:white;
+    }
+    body{
+      background:url("https://assets.codepen.io/6060109/waves.png");
+      background-size:cover;
+    }
+    #coming-soon{
+      color: #423A3A;
+    }
+    .new-shoes{
+      display:block;
+      width:42%;
+      background:url("https://assets.codepen.io/6060109/shoes.png");
+      background-size:cover;
+    }
+    input[value="›"]{
+      display:block;
+      width: 100px;
+      height: 48px;
+      background-color:#333333;
+      color:#FFFFFF;
+      font-family: AdiHaus;
+      font-size: 30px;
+      background: linear-gradient(135deg, #7C7C7C 0%, #2B2828 100%);
+  
+    }
+    input[value="Go"]{
+      display:none;
+    }
+    input[type="email"]{
+      padding: 0 20px;
+      width:345px;
+      font-family: AdiHaus;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0px;
+    }
+  }
