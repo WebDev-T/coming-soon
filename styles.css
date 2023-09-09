@@ -78,7 +78,7 @@ html, body{
   input[value="›"]{
     display:none;
   }
-  
+
   @media only screen and (min-width:  1400px){
     header{
       margin:49px 0px 137px 0px;
