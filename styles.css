@@ -93,6 +93,7 @@ html, body{
     }
     .text-content{
       text-align:left;
+      padding-bottom: 0;
     }
     #coming-soon{
       font-family: AdiHaus;
