@@ -2,9 +2,7 @@ html, body{
     margin:0;
     height:100%;
     width:100%;
-  }
-  body{
-    display:flex;
+    padding-bottom: 79px;
   }
   header{
     margin:18px 152px
@@ -17,7 +15,6 @@ html, body{
   }
   .text-content{
     text-align:center;
-    padding-bottom: 79px;
   }
   #we-re{
     color: #2F80ED;
